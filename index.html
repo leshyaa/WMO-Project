@@ -1,0 +1,122 @@
+<html>
+    <head>
+        <meta charset="Utf-8">
+        <link rel="icon" href=".\shoe.png" type="image/x-icon">
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>
+            Sneakers
+        </title>
+    </head>
+    <body>
+        <script defer src="code.js" ></script>
+        <header>
+            <div class="left">
+                <div>
+                <button class="openmenu" id="openmenu"><img src=".\menu.svg" id="hamburger" alt="cart"></button>
+                </div>
+        <h1 class="logo">sneakers</h1>
+            <ul class="navbar">
+                <li><a href="#">Collections</a></li>
+                <li><a href="#">Men</a></li>
+                <li><a href="#">Women</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+</div><div class="right">
+        <a href="#"><button class="cart"><img id="cart" src=".\cart.svg" alt="cart"></button></a>
+        <a href="#"><img class="prof" src=".\cat.png" alt="profile"></a>
+
+</div>
+
+</div>
+
+
+        </header>
+        
+        <div class="line"> <hr></hr></div>
+       <div class="content">
+           
+           <div class="images">
+            <div class="imgs">
+                
+                <label for="img1" class="label"><img src="prev1.jpg" class="preview" /></label>
+                <input type="radio" name="list" class="selector"checked value=".\prev1.jpg" id="img1" />
+                <img src=".\full1.jpg" class="fullsize" />
+            </div>
+            <div class="imgs">
+                
+                <label for="img2" class="label"><img src="prev2.jpg" class="preview" /></label>
+                <input type="radio" name="list" class="selector" value=".\prev2.jpg" id="img2" />
+                <img src=".\full2.jpg" class="fullsize" />
+            </div>
+            <div class="imgs">
+                
+                <label for="img3" class="label"><img src="prev3.jpg" class="preview" /></label>
+                <input type="radio" name="list" class="selector" value=".\prev3.jpg" id="img3" />
+                <img src=".\full3.jpg" class="fullsize" />
+            </div>
+            <div class="imgs">
+
+                <label for="img4" class="label"><img src="prev4.png" class="preview" /></label>
+                <input type="radio" name="list" class="selector" value=".\prev4.png" id="img4" />
+                <img src=".\full4.png" class="fullsize" />
+                
+        </div>
+
+           </div>
+           
+           <div class="text">
+               <h2>SNEAKER COMPANY</h2>
+               <p class="p1">Fall Limited Edition Sneakers</p>
+               <p class="p2">
+                   These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole, they’ll withstand everything the weather can offer.
+               </p>
+               <p class="p3">
+                $125.00
+               </p>
+               <div class="plmi">
+
+                <button class="minus" onclick= decrement() id="minus"> <img  src=".\minus.svg"> </button>
+<div class="count" id="count">0</div>
+                <button onclick= increment() class="plus" id="plus">  <img src=".\add.svg"> </button></div>
+             <br><br>
+             <button id="addtocart" class="addtocart"> Add to Cart</button>
+           </div>
+       </div>
+       <div id="container" class="container">
+           <div id="menus">
+        <button id="closemenu" class="closemenu"><img src=".\close.svg"></button>
+        <ul class="menulist">
+            <li><a href="#">Collections</a></li>
+            <li><a href="#">Men</a></li>
+            <li><a href="#">Women</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul></div>
+    </div>
+    <div class="container2" id="container2">
+        
+    <div class="inside-cart" id="inside-cart">
+        <button id="close-cart" class="close-cart"><img src=".\close.svg"></button>
+        <p id="cart-text" class="cart-text">Cart is empty</p>
+    </div></div>
+
+    <div class="container3" id="container3">
+        
+        <div class="inside-cart2" id="inside-cart2">
+            <button id="close-cart2" class="close-cart2"><img src=".\close.svg"></button>
+            <div id="cart-content" class="cart-content">
+                <img id="cart-img" class="cart-img" src=".\prev1.jpg">
+                <div id="cart-text2" class="cart-text2">
+                <div class="misc"><p>Sneaker company</p></div>
+                <div class="plmi">
+                <button class="minus" onclick= decrement2() id="minus"> <img src=".\minus.svg"> </button>
+<div class="count2" id="count2">0</div>
+                <button onclick= increment2() class="plus" id="plus">  <img src=".\add.svg"> </button></div><br>
+             <div id="calc" class="calc">
+             125x <div class="count21" id="count21">0</div> = <div class="total" id="total">0</div></div></div>
+            </div></div>
+        </div></div>
+    </body>
+</html>
