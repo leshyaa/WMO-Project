@@ -55,7 +55,7 @@ addtocart.addEventListener('click', () =>{
 
 
 const container2=document.getElementById("container2");
-const opencart=document.querySelector('#cart');
+const opencart=document.querySelector('#cart1');
 const  closecart = document.getElementById("close-cart");
 
 opencart.addEventListener('click', () => {
